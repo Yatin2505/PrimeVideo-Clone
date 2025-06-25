@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Amazon Ember, Amazon Arabic Ember, Arial, sans-serif !important;
+    
+
+}
+body{
+    background-color: black;
+}
+ nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+ nav ul{
+    list-style: none;
+    display: flex;
+}
+ nav ul li:hover, nav a:hover{
+    background-color: rgb(235, 235, 235);
+    color: black;
+    border-radius: 20px;
+}
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+}
+.newdiv2{
+    display: flex;
+    
+}
+.newdiv3{
+    display: flex;
+    align-items: center ;
+}
+.newdiv2 ul li a {
+    padding: 15px;
+}
+
+
+.newdiv3 ul{
+    display: flex;
+   align-items: center;
+   padding: 10px;
+    
+}
+.newdiv3 ul li a{
+    padding: 10px;
+}
+
+.newdiv3 #profile{
+    height: 30px;
+}
+ 
+#btn{
+    padding: 10px;
+    margin-inline: 10px;
+    background-color: rgb(21,123,207);
+    border: none;
+    border-radius: 10px;
+    color: white;
+
+}
+#profile{
+    border-radius: 20px;
+}
+#btn:hover , #profile:hover {
+    /* box-shadow: white 60px ; */
+    box-shadow:  rgb(255, 255, 255) 0px 0px 10px;
+    cursor: pointer;
+}
+.sec1{
+    background-image: url(MLP.jpg);
+    height: 89vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+  
+}
+.sec1 div,.sec2 div , .sec3 .normaldiv{
+    color: white;
+    width: 45vw;
+   
+    display: flex;
+    flex-direction: column;
+   row-gap: 50px;
+    margin-left: 30px;
+    
+}
+.sec1 h1 , .sec2 h1, .sec3 h1 {
+    margin-top: 50px;
+    font-size: 2rem;
+}
+
+.sec1 button , .sec2 button{
+   width:fit-content;
+   padding: 20px;
+   font-size: 18px;
+   font-weight:600;
+   line-height: 20px;
+   border: none;
+   border-radius: 10px;
+}
+.sec1 button:hover, .sec2 button:hover{
+ 
+    transform: scale(1.2);
+    transition-duration:1.5s;
+    
+}
+.sec2{
+
+    background-image: url(TVOD_MLP_Right.jpg);
+    height: 65vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.sec3{
+    height: 80vh;
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+.normaldiv{
+    width: 50%;
+}
+.sec3 .maingrid{
+    display: grid;
+    grid-template-areas: " 1 2 3"
+                          "4 5 6"
+                          "7 8 9";
+    gap: 5px;
+    height: 50%;
+    width: 50%;
+    margin-left: 70px;
+}
+.maingrid div img {
+    height: 120px;
+   border-radius: 10px;
+}
+.maingrid div{
+    border-radius: 10px;
+}
+.maingrid div:hover{
+    box-shadow: white 0px 0px 20px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #222222;
+    height: 150px;
+    margin-top: 100px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+footer  ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+    color: #5b88e9;
+    font-weight: 600;
+}
+footer p{
+    color: gray;
+}
