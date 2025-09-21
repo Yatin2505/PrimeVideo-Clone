@@ -81,7 +81,7 @@ nav{
 .sec1{
     background-image: url("accests/MLP.jpg");
     height: 89vh;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
    
   
