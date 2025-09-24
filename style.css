@@ -68,7 +68,7 @@ nav{
     border: none;
     border-radius: 10px;
     color: white;
-
+     transition: transform 0.3s ease;
 }
 #profile{
     border-radius: 20px;
